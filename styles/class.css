@@ -1,0 +1,51 @@
+body{
+    width:100vw;
+    height:100vw;
+    background-color: antiquewhite;
+}
+div{
+    background-color: aqua;
+}
+.div1{
+    background-color: blueviolet;
+}
+.divsecond{
+    display:flex;
+    direction:rtl;
+    flex-direction:column;
+    gap: 3px;
+    background-color:white;
+    margin-top: 20px;
+    
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top:55px;
+    background-color:rgb(243,237,237,0.164);
+    padding-right:30px;
+    font-size:large;
+}
+#secondP{
+    color: red;
+}
+a:link{
+    color:bisque;
+    background-color: transparent;
+    text-decoration:line-through;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color:green;
+}
+a:active{
+    color:fuchsia;
+    text-decoration: none;
+}
+.mypre:hover{
+    cursor: pointer;
+    color:blue;
+}
